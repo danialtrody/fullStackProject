@@ -12,8 +12,9 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 
-.container{
+.sub-container{
     display: flex;
+    gap: 100px;
 
 }
 
@@ -27,3 +28,17 @@ body{
     background: linear-gradient(to right,red,yellow);
 }
 
+.d-grid{
+    width: 48%;
+} 
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header , .card-text ,.btn-primary{
+    font-weight: 800;
+}
